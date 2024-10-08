@@ -1,0 +1,22 @@
+
+    
+    .cont1{
+    background-color:#f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px auto ;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 15px wheat; */
+    border: 1px solid rgb(177, 102, 247);
+    padding:  50px;
+
+}
+tr,th{
+    text-align: center;
+    border: 1px solid black;
+}
+

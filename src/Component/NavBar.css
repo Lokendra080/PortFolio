@@ -1,0 +1,47 @@
+.body-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Nav-Name{
+    color:#e6f0bc;
+    cursor: pointer;
+}
+.navbar {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* position: relative; */
+    
+}
+.navbar{
+    top: 0;
+    margin: auto 30px;
+    position: fixed;
+
+}
+ 
+  .Nav-item{
+      text-decoration: none;
+      margin:auto 10px ;
+
+  }
+
+
+.Nav-Name:hover{
+    color: aliceblue;
+    
+}
+.Nav-item:hover{
+    color:#f3a6c5;;
+    text-decoration: none;
+}
+.Nav-item{
+    color: aliceblue;
+    
+}
+
+
+
+

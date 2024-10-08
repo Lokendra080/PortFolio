@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(29, 28, 28);
+}
+
+.Home-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 140px auto;
+    max-width: 90%;
+
+}
+
+
+
+
+
+
+.Left-home {
+    
+    margin:  auto;
+    
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+
+.icon,
+i {
+    display: flex;
+    margin: 10px 18px;
+    color: #f3a6c5;
+}
+
+.Btn {
+    margin-top: 25px;
+
+}
+
+.btn-Contact {
+    border-radius: 50px;
+    margin: auto 10px;
+    padding: 10px 30px;
+    border-color: #f3a6c5;
+    color: aliceblue;
+}
+
+.Link {
+
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn-Contact:hover {
+    color: aliceblue;
+    background: linear-gradient(70deg, rgba(2, 0, 36, 1) 50%, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}

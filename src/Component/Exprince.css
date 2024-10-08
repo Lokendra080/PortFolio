@@ -1,0 +1,45 @@
+body {
+    color: aliceblue;
+
+}
+
+
+.Main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+
+.left-container {
+    border-radius: 35px;
+    box-shadow: 2px 2px 15px wheat;
+    width: 40%;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid rgb(177, 102, 247);
+}
+
+.right-container {
+    border-radius: 35px;
+    box-shadow: 2px 2px 15px wheat;
+    width: 40%;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid rgb(177, 102, 247);
+}
+
+.right-container:hover,
+.left-container:hover {
+    border: 1px solid cyan;
+    box-shadow: none;
+}
+
+.container>h1 {
+    margin-bottom: 10px;
+    text-align: center;
+
+}

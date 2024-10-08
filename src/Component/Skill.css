@@ -1,0 +1,54 @@
+
+
+
+.Main-con{
+    margin-top: 150px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.image{
+    width: 150px;
+    border: 1px solid blueviolet;
+    height: 150px;
+    
+   
+    border-radius: 10px;
+    
+}
+.image:hover{
+    width: 150px;
+    border: 1px solid cyan;
+    height: 150px;
+    padding: 15px 15px;
+    rotate: 30deg; 
+   
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    
+}
+.image >img{
+    margin-top: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+.image:hover >img  {
+    rotate: -30deg;
+    /* padding: 50px; */
+    /* transition: 0.5s ease-in; */
+}
+.image:hover >p{    
+    visibility: hidden;
+    
+}
+
+.image-group{
+    cursor: pointer;   
+     margin:50px 50px;   
+    text-align: center;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}

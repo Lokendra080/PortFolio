@@ -1,0 +1,63 @@
+
+
+
+h4 {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
+.Compo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.left-side{
+    width: 40%;
+    min-width: 37%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px wheat;
+}
+
+
+
+.transparent-input {
+    background-color: transparent !important;
+    color: aliceblue !important;
+    text-transform: uppercase;
+    /* Sets text color to white */
+    border: 1px solid rgb(228, 213, 241);
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+}
+
+.first,h5{
+    margin: 25px auto;
+}
+
+.footer2{
+    display: flex;
+    margin:10px auto ;
+    
+}
+
+h1>i{
+    padding: 30px ;
+}
+
+.footer2,i{
+    color: rgb(193, 233, 233); 
+}
+
+
+
+
+
+
