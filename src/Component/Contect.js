@@ -33,7 +33,7 @@ const sendData = async(e)=>{
   e.preventDefault(); 
   const {userName, userEmail, userNumber, userMsg} = userData;
     // console.log(userData)
-  const res= await fetch("http://localhost:8005/xyz", {
+  const res= await fetch("https://portfolio-backend-61fm.onrender.com/xyz", {
     method:"POST",
     headers:{
       "Content-type":"application/json"
